@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iterative Design</title>
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/bootstrap.css" />
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <!-- Navbar and icon -->
+    <header>
+        <nav class="navbar navbar-expand-lg" id="navStyle">
+            <div class="container-fluid">
+                <!-- Navbar brand -->
+                <div>
+                    <a class="navbar-brand brown-img" href="#">
+                        <img class="brown-img" src="media/brownu-logo.png" alt="The Brown University logo."
+                            width="100px" height="auto" background-color="#664E4C">
+                    </a>
+                </div>
+                <!-- Toggler button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar buttons -->
+                <div class="collapse navbar-collapse me-3 navStyle" id="navbarToggler">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active nav-button" href="#about" color="#F9D4BB">About</a>
+                        </li>
+                        <li>
+                            <a class="nav-link active nav-button" href="#sketches">Initial Sketches</a>
+                        </li>
+                        <li>
+                            <a class="nav-link active nav-button" href="#Lo-fi Wireframes">Lo-fi Wireframes</a>
+                        </li>
+                        <li>
+                            <a class="nav-link active nav-button" href="#hf-prototypes">Hi-fi Prototypes</a>
+                        </li>
+                        <li>
+                            <a class="nav-link active nav-button" href="#testing">User Testing</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav ml-auto">
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- About the Project -->
+        <h1>User Interfaces / User Experience Project 3</h1>
+        <h2>Iterative Design: Agapé</h2>
+        <hr>
+        <div id="about">
+            <h3 class="mx-3"><u>About the project</u></h3>
+            <div class="flex-column mx-3">
+                <p>This group project required us to choose a startup from Y-Combinator, interpret their startup idea,
+                    and create a mockup of a
+                    one possible implementation. We had four group members, and we each created a set of initial
+                    sketches where we each interpreted the
+                    startup idea. We then combined the best ideas from each of our sketches created one set of
+                    wireframes on <i>Balsamiq</i>. From there,
+                    we used <i>Figma</i> to create a visual style guide and a hi-fi prototype of our final wireframes.
+                </p>
+                <br>
+                <p>We chose the startup Agapé as the subject of our project.</p>
+                <br>
+                <p>We submitted our hi-fi mockup for user testing, and received critiques on our designs. Finally, we
+                    contacted the startup to show them our designs!</p>
+                <br>
+                <p>Agapé is a relationship wellness app for couples that nurtures both physical and emotional intimacy.
+                    Couples start their day with a daily question designed to spark meaningful conversation.
+                    The assignment was to design an interface mockup for this startup idea. </p>
+                <br>
+                <br>
+            </div>
+            <div class="flex-column cr-figure" style="justify-content: center; align-content: center;">
+                <img src="media/startup.png" alt="Agapé's startup page on ycombinator." class="cr-figure mx-3">
+                <caption><u>Agapé's startup page on Y-Combinator.</u></caption>
+                <br>
+                <br>
+                <br>
+            </div>
+            <!-- Identifying Usability Problems -->
+            <div id="sketches">
+                <h3 class="mx-3"><u>Intial Sketches</u></h3>
+                <p class="mx-3">First, we created intial sketches based on the description of the startup. We weren't
+                    allowed to look at the startup's actual designs, nor could we look at
+                    our teammates designs until we we're all finished. This way we would definitely have different ideas
+                    that could each make it to the final mockup.
+                </p>
+                <div class="flex-column">
+                    <h4><u>Sketch 1</u> </h4>
+                    <figure>
+                        <img class="wf-figure" src="media/sketches/sketches 1.jpg"
+                            alt="A group member's intial sketch for the project">
+                    </figure>
+                    <h4><u>Sketch 2</u></h4>
+                    <figure>
+                        <img class="wf-figure" src="media/sketches/sketches 2.jpeg"
+                            alt="A group member's intial sketch for the project">
+                    </figure>
+                    <h4><u>Sketch 3</u></h4>
+                    <figure>
+                        <img class="wf-figure" src="media/sketches/sketches 3.jpg"
+                            alt="A group member's intial sketch for the project">
+                    </figure>
+                    <h4><u>Sketch 4</u></h4>
+                    <figure>
+                        <img class="wf-figure" src="media/sketches/sketches 4.jpeg"
+                            alt="A group member's intial sketch for the project">
+                    </figure>
+                </div>
+                <h3 class="mx-3"><u>Conclusions from sketches</u></h3>
+                <div class="mx-3">
+                    <p>Based on each of our three sketches, we decided to wireframe the following features</p>
+                    <ul>
+                        <li>A splash page that prompts the user to begin using the app. </li>
+                        <li>A login page to simulate signing into an account.</li>
+                        <li>Some sort of question/messaging page that allows users to converse about a chosen
+                            question.</li>
+                        <li>A profile page that allows users to edit their account details. </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Lo-fi Prototypes in Balsamiq -->
+            <div id="Lo-fi Wireframes">
+                <h3 class="mx-3"><u>Lo-fi Wireframes</u></h3>
+                <p class="mx-3">Based on the conclusions gained from our sketches, we created the following wireframes.</p>
+                <div class="flex-column">
+                    <h4><u>Splash Page</u></h4>
+                    <figure>
+                        <img class="wf-figure" src="media/Wireframes/Splash Page.png"
+                            alt="The splash page lo-fi wireframe made in Balsamiq.">
+                    </figure>
+                    <h4><u>Login Page</u></h4>
+                    <figure>
+                        <img class="wf-figure" src=""
+                            alt="The low fidelity wireframe of the redesign for a tablet window size.">
+                    </figure>
+                    <h4>Landing Page</h4>
+                    <figure>
+                        <img class="wf-figure" src=""
+                            alt="">
+                    </figure>
+                    <h4>Profile Page</h4>
+                    <figure>
+                        <img class="wf-figure" src=""
+                            alt="">
+                    </figure>
+                </div>
+            </div>
+            <!-- Hi-fi Prototypes in Figma-->
+            <div id="hf-prototypes" class="align-items:center; text-align: center;">
+                <div class="flex-column">
+                    <h3><u>Visual Style Guide & Hi-fi Prototypes</u></h3>
+                    <h4>Visual Style Guide</h4>
+                    <figure style="border: black;">
+                        <img class="hf-prototypes" src="images/Visual Style Guide.png"
+                            alt="The high fidelity wireframe of the redesign for a desktop window size.">
+                        <figcaption style="margin-left: 200px;">The visual style guide, which describes the color
+                            palette of the webpage, and other elements.</figcaption>
+                    </figure>
+                    <h4>Desktop Redesign Prototype</h4>
+                    <figure style="border: black;">
+                        <img class="hf-prototypes" src="images/final 3.png"
+                            alt="The high fidelity wireframe of the redesign for a desktop window size.">
+                        <figcaption></figcaption>
+                    </figure>
+                    <h4>Tablet Redesign Prototype</h4>
+                    <figure>
+                        <img class="hf-prototypes" src="images/Final.png"
+                            alt="The high fidelity wireframe of the redesign for a tablet window size.">
+                        <figcaption></figcaption>
+                    </figure>
+                    <h4>Mobile Redesign Prototype</h4>
+                    <figure>
+                        <img class="hf-prototypes" src="images/final 2.png"
+                            alt="The high fidelity wireframe of the redesign for a mobile phone window size.">
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
+            </div>
+            <!-- Final Responsive Redesign -->
+            <div id="testing">
+                <h3 class="mx-3" style="text-align:center"><u>Final Redesign</u></h3>
+                <p style="text-align:center">Here's the <a
+                        href="https://ambitioustortoise442.github.io/Responsive-Redesign/" target="_blank">link</a> to
+                    the final responsive redesign!</p>
+            </div>
+    </main>
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
