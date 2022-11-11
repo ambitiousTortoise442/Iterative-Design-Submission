@@ -6,6 +6,10 @@ html {
     font-family: Nunito-Sans;
     color: #F8E2EA;
 }
+body {
+    margin-left: 20px
+
+}
 
 h1,
 h2 {
